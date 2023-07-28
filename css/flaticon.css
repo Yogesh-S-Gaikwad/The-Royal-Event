@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon27be.ttf?1802523a0433b62fdb965e423ca1067d") format("truetype"),
+url("../fonts/flaticon27be.woff?1802523a0433b62fdb965e423ca1067d") format("woff"),
+url("../fonts/flaticon27be.woff2?1802523a0433b62fdb965e423ca1067d") format("woff2"),
+url("../fonts/flaticon27be.eot?1802523a0433b62fdb965e423ca1067d#iefix") format("embedded-opentype"),
+url("../fonts/flaticon27be.svg?1802523a0433b62fdb965e423ca1067d#flaticon") format("svg");
+font-display: swap;
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-ascetic:before {
+    content: "\f101";
+}
+.flaticon-ballons:before {
+    content: "\f102";
+}
+.flaticon-balloons:before {
+    content: "\f103";
+}
+.flaticon-beer:before {
+    content: "\f104";
+}
+.flaticon-bracelet:before {
+    content: "\f105";
+}
+.flaticon-businessman:before {
+    content: "\f106";
+}
+.flaticon-button:before {
+    content: "\f107";
+}
+.flaticon-cake:before {
+    content: "\f108";
+}
+.flaticon-calendar:before {
+    content: "\f109";
+}
+.flaticon-camera:before {
+    content: "\f10a";
+}
+.flaticon-car-1:before {
+    content: "\f10b";
+}
+.flaticon-car:before {
+    content: "\f10c";
+}
+.flaticon-champagne:before {
+    content: "\f10d";
+}
+.flaticon-cheers-1:before {
+    content: "\f10e";
+}
+.flaticon-cheers:before {
+    content: "\f10f";
+}
+.flaticon-confetti:before {
+    content: "\f110";
+}
+.flaticon-couple:before {
+    content: "\f111";
+}
+.flaticon-cradle-1:before {
+    content: "\f112";
+}
+.flaticon-cradle:before {
+    content: "\f113";
+}
+.flaticon-crib:before {
+    content: "\f114";
+}
+.flaticon-dance-1:before {
+    content: "\f115";
+}
+.flaticon-dance:before {
+    content: "\f116";
+}
+.flaticon-dinner-1:before {
+    content: "\f117";
+}
+.flaticon-dinner:before {
+    content: "\f118";
+}
+.flaticon-disco:before {
+    content: "\f119";
+}
+.flaticon-dj-1:before {
+    content: "\f11a";
+}
+.flaticon-dj:before {
+    content: "\f11b";
+}
+.flaticon-drum-1:before {
+    content: "\f11c";
+}
+.flaticon-drum-2:before {
+    content: "\f11d";
+}
+.flaticon-drum-set-1:before {
+    content: "\f11e";
+}
+.flaticon-drum-set:before {
+    content: "\f11f";
+}
+.flaticon-drum:before {
+    content: "\f120";
+}
+.flaticon-earrings:before {
+    content: "\f121";
+}
+.flaticon-exhibition-1:before {
+    content: "\f122";
+}
+.flaticon-exhibition:before {
+    content: "\f123";
+}
+.flaticon-eye-mask:before {
+    content: "\f124";
+}
+.flaticon-female-flamenco-dancer:before {
+    content: "\f125";
+}
+.flaticon-festival:before {
+    content: "\f126";
+}
+.flaticon-fireworks-1:before {
+    content: "\f127";
+}
+.flaticon-fireworks:before {
+    content: "\f128";
+}
+.flaticon-flamenco-couple-dancing:before {
+    content: "\f129";
+}
+.flaticon-gift:before {
+    content: "\f12a";
+}
+.flaticon-giftbox:before {
+    content: "\f12b";
+}
+.flaticon-graduated:before {
+    content: "\f12c";
+}
+.flaticon-hairdresser:before {
+    content: "\f12d";
+}
+.flaticon-makeup:before {
+    content: "\f12e";
+}
+.flaticon-man-in-a-party-dancing-with-people:before {
+    content: "\f12f";
+}
+.flaticon-manager-with-tie:before {
+    content: "\f130";
+}
+.flaticon-married:before {
+    content: "\f131";
+}
+.flaticon-mehndi:before {
+    content: "\f132";
+}
+.flaticon-pizza:before {
+    content: "\f133";
+}
+.flaticon-pooja:before {
+    content: "\f134";
+}
+.flaticon-pregnancy:before {
+    content: "\f135";
+}
+.flaticon-pregnant:before {
+    content: "\f136";
+}
+.flaticon-relax:before {
+    content: "\f137";
+}
+.flaticon-restaurant:before {
+    content: "\f138";
+}
+.flaticon-rings:before {
+    content: "\f139";
+}
+.flaticon-serving-dish:before {
+    content: "\f13a";
+}
+.flaticon-shop:before {
+    content: "\f13b";
+}
+.flaticon-stage:before {
+    content: "\f13c";
+}
+.flaticon-surprise:before {
+    content: "\f13d";
+}
+.flaticon-table:before {
+    content: "\f13e";
+}
+.flaticon-theatre:before {
+    content: "\f13f";
+}
+.flaticon-wedding-1:before {
+    content: "\f140";
+}
+.flaticon-wedding-anniversary-january-calendar-page:before {
+    content: "\f141";
+}
+.flaticon-wedding-cake:before {
+    content: "\f142";
+}
+.flaticon-wedding-car:before {
+    content: "\f143";
+}
+.flaticon-wedding-couple:before {
+    content: "\f144";
+}
+.flaticon-wedding-location-1:before {
+    content: "\f145";
+}
+.flaticon-wedding-location:before {
+    content: "\f146";
+}
+.flaticon-wedding-rings:before {
+    content: "\f147";
+}
+.flaticon-wedding:before {
+    content: "\f148";
+}

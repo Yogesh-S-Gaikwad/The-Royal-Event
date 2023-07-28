@@ -1,0 +1,23 @@
+.add-nav{
+    background-color:white;
+}
+.add-all-services-btn{
+    background-color: black !important;
+}
+.add-all-services-btn:hover{
+    background-color: #b4cd29 !important;
+}
+
+.review{
+    width: 45%;
+    margin: 2.5%;
+}
+@media(max-width:1200px){
+    .review{
+        width: 100%;
+    }
+}
+
+.custom-shadow{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
