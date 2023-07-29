@@ -13,11 +13,11 @@ ul li .icon-box.icon-style-border {
   position: fixed;
 }
 @font-face {
-  font-family: cursive;
+  font-family: Georgia;
   src: url(../fonts/comici.ttf);
 }
 @font-face {
-  font-family: cursiveRegular;
+  font-family: Georgia;
   src: url(../fonts/design.graffiti.comicsansmsgras.ttf);
   font-display: swap;
 }
@@ -244,8 +244,8 @@ ul {
 }
 body {
   font-family: cursiveRegular;
-  font-weight: 600;
-  font-size: 15px;
+  /* font-weight: 600; */
+  /* font-size: 15px; */
   line-height: 26px;
   color: #828c96;
   background-color: #f9f9f9;

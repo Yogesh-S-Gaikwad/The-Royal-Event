@@ -21,3 +21,17 @@
 .custom-shadow{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+/* .ttm-stickable-header-w{
+    background-image: url(../royal-imgs/slide2.avif) !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+} */
+
+/* .new-font{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} */
+
+#menu ul li a{
+    text-transform: uppercase !important;
+}
