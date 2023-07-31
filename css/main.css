@@ -1147,7 +1147,7 @@ body .page.sidebar-true .site-main {
   margin-bottom: 150px;
 }
 .section-title h4 {
-  font-family: cursive;
+ font-family: inherit;
 }
 #site-header-menu #site-navigation .menu ul li > ul li > a:hover,
 #site-header-menu #site-navigation .menu > ul > li > a:before,
@@ -3498,7 +3498,7 @@ article.post blockquote p {
   font-size: 28px;
   float: left;
   transition: 0.3s ease-out;
-  font-family: cursive;
+  font-family: inherit;
   width: 100%;
 }
 .zoom-img .icon-links {

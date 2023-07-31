@@ -31,3 +31,11 @@
     background-color: rgba(0, 0, 0, 0.493) !important;
    
 }
+
+/* about page */
+
+.bg-img{
+    background: url(../royal-imgs/Slides/16.jpg);
+    background-size: cover;
+}
+
