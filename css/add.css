@@ -31,11 +31,27 @@
     background-color: rgba(0, 0, 0, 0.493) !important;
    
 }
+@media (max-width:1200px) {
+    .main-nav {
+       background-color: white !important;
+     
+    }
+    .section2{
+        margin-top: 105px !important;
+    }
+}
+
 
 /* about page */
 
 .bg-img{
     background: url(../royal-imgs/Slides/16.jpg);
     background-size: cover;
+}
+
+
+/* contact us */
+.ttm-textcolor-white a:hover{
+ color: white !important;
 }
 
