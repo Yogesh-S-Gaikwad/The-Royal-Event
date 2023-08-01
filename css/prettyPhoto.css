@@ -118,7 +118,7 @@ div.light_square .pp_close {
   cursor: pointer;
 }
 div.pp_default .pp_nav .currentTextHolder {
-  font-family: Georgia;
+  font-family: serif;
   font-style: italic;
   color: #999;
   font-size: 11px;

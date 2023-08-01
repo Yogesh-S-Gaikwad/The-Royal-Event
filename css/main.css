@@ -13,11 +13,11 @@ ul li .icon-box.icon-style-border {
   position: fixed;
 }
 @font-face {
-  font-family: Georgia;
+  font-family: serif;
   src: url(../fonts/comici.ttf);
 }
 @font-face {
-  font-family: Georgia;
+  font-family: serif;
   src: url(../fonts/design.graffiti.comicsansmsgras.ttf);
   font-display: swap;
 }
@@ -3629,7 +3629,7 @@ article.post blockquote p {
   width: 285px;
   top: 98px;
   color: #fff;
-  font-family: cursive;
+  font-family: serif;
   font-size: 30px;
 }
 .related-product h2::before {
