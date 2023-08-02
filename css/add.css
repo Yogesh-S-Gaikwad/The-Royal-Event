@@ -19,7 +19,7 @@
 }
 
 .custom-shadow{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 #menu ul li a{
@@ -28,7 +28,9 @@
 
 .main-nav{
     
-    background-color: rgba(0, 0, 0, 0.493) !important;
+    background-color: rgba(0, 0, 0,0.63) !important;
+    /* letter-spacing: 2px; */
+   
    
 }
 @media (max-width:1200px) {
@@ -45,13 +47,23 @@
 /* about page */
 
 .bg-img{
-    background: url(../royal-imgs/Slides/16.jpg);
+    background: url(../royal-imgs/Slides/7.jpg);
     background-size: cover;
+    
 }
-
+/* .bg-img a{
+    letter-spacing: 2px;
+} */
 
 /* contact us */
 .ttm-textcolor-white a:hover{
  color: white !important;
 }
 
+.add-font{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.slide-1{
+    opacity: 0.85;
+}
