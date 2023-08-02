@@ -1,32 +1,32 @@
-! function(e) {
+! function (e) {
     "use strict";
-    jQuery(".ttm-header-search-link a").addClass("sclose"), jQuery(".ttm-header-search-link a").on("click", function(e) {
-        jQuery(".ttm-header-search-link a").hasClass("sclose") ? (jQuery(this).removeClass("sclose").addClass("open"), jQuery(".ttm-search-overlay").addClass("st-show"), jQuery(".ttm-search-overlay").slideDown(400, function() {
+    jQuery(".ttm-header-search-link a").addClass("sclose"), jQuery(".ttm-header-search-link a").on("click", function (e) {
+        jQuery(".ttm-header-search-link a").hasClass("sclose") ? (jQuery(this).removeClass("sclose").addClass("open"), jQuery(".ttm-search-overlay").addClass("st-show"), jQuery(".ttm-search-overlay").slideDown(400, function () {
             jQuery(".field.searchform-s").focus()
-        })) : (jQuery(this).removeClass("open").addClass("sclose"), jQuery(".ttm-search-overlay").slideUp(400, function() {})), jQuery(".ttm-search-close").on("click", function() {
-            jQuery(".ttm-header-search-link a").removeClass("st-show").addClass("sclose"), jQuery(".ttm-search-overlay").slideUp(400, function() {})
+        })) : (jQuery(this).removeClass("open").addClass("sclose"), jQuery(".ttm-search-overlay").slideUp(400, function () { })), jQuery(".ttm-search-close").on("click", function () {
+            jQuery(".ttm-header-search-link a").removeClass("st-show").addClass("sclose"), jQuery(".ttm-search-overlay").slideUp(400, function () { })
         })
-    }), e(window).scroll(function() {
-        matchMedia("only screen and (min-width: 1200px)").matches && (e(window).scrollTop() >= 30 ? (e(".ttm-stickable-header").addClass("fixed-header"), e(".ttm-stickable-header").addClass("visible-title")) : (e(".ttm-stickable-header").removeClass("fixed-header"), e("ttm-stickable-header").removeClass("visible-title")))
+    // }), e(window).scroll(function () {
+    //     matchMedia("only screen and (min-width: 1200px)").matches && (e(window).scrollTop() >= 30 ? (e(".ttm-stickable-header").addClass("fixed-header"), e(".ttm-stickable-header").addClass("visible-title")) : (e(".ttm-stickable-header").removeClass("fixed-header"), e("ttm-stickable-header").removeClass("visible-title")))
     }), e("ul li:has(ul)").addClass("has-submenu"), e("ul li ul").addClass("sub-menu"), e("ul.dropdown li").on({
-        mouseover: function() {
+        mouseover: function () {
             e(this).addClass("hover")
         },
-        mouseout: function() {
+        mouseout: function () {
             e(this).removeClass("hover")
         }
     });
     var t = e("#menu"),
         s = e("#menu-toggle-form"),
         a = e(".has-submenu > a");
-    s.on("click", function(e) {
+    s.on("click", function (e) {
         s.toggleClass("active"), t.toggleClass("active")
-    }), a.on("click", function(t) {
+    }), a.on("click", function (t) {
         t.preventDefault(), e(this).toggleClass("active").next("ul").toggleClass("active")
-    }), e("ul li:has(ul)"), e("[data-appear-animation]").each(function() {
+    }), e("ul li:has(ul)"), e("[data-appear-animation]").each(function () {
         var t = e(this),
             s = t.data("appear-animation");
-        t.data("appear-animation-delay") && t.data("appear-animation-delay"), e(window).width() > 959 ? (t.html("0"), t.waypoint(function(e) {
+        t.data("appear-animation-delay") && t.data("appear-animation-delay"), e(window).width() > 959 ? (t.html("0"), t.waypoint(function (e) {
             if (!t.hasClass("completed")) {
                 var s = t.data("from"),
                     a = t.data("to"),
@@ -37,7 +37,7 @@
                     to: a,
                     runningInterval: 2e3,
                     stepUnit: o,
-                    onComplete: function(e) {
+                    onComplete: function (e) {
                         t.addClass("completed")
                     }
                 })
@@ -45,26 +45,26 @@
         }, {
             offset: "85%"
         })) : "animateWidth" == s && t.css("width", t.data("width"))
-    }), jQuery(".progress").each(function() {
+    }), jQuery(".progress").each(function () {
         jQuery(this).find(".progress-bar").animate({
             width: jQuery(this).attr("data-value")
         }, 6e3)
-    }), e(".ttm-tabs").each(function() {
-        e(this).children(".content-tab").children().hide(), e(this).children(".content-tab").children().first().show(), e(this).find(".tabs").children("li").on("click", function(t) {
+    }), e(".ttm-tabs").each(function () {
+        e(this).children(".content-tab").children().hide(), e(this).children(".content-tab").children().first().show(), e(this).find(".tabs").children("li").on("click", function (t) {
             var s = e(this).index(),
                 a = e(this).siblings().removeClass("active").parents(".ttm-tabs").children(".content-tab").children().eq(s);
             a.addClass("active").fadeIn("slow"), a.siblings().removeClass("active"), e(this).addClass("active").parents(".ttm-tabs").children(".content-tab").children().eq(s).siblings().hide(), t.preventDefault()
         })
-    }), e(".toggle").eq(0).addClass("active").find(".toggle-content").css("display", "block"), e(".accordion .toggle-title").on("click", function() {
+    }), e(".toggle").eq(0).addClass("active").find(".toggle-content").css("display", "block"), e(".accordion .toggle-title").on("click", function () {
         e(this).siblings(".toggle-content").slideToggle("fast"), e(this).parent().toggleClass("active"), e(this).parent().siblings().children(".toggle-content:visible").slideUp("fast"), e(this).parent().siblings().children(".toggle-content:visible").parent().removeClass("active")
-    }), e(window).on(function() {
+    }), e(window).on(function () {
         var t = e("#isotopeContainer");
-        e("#filters a").on(function() {
+        e("#filters a").on(function () {
             var s = e(this).attr("data-filter");
             return t.isotope({
                 filter: s
             }), !1
-        }), e("#filters li").find("a").on(function() {
+        }), e("#filters li").find("a").on(function () {
             var s = e(this);
             if (s.hasClass("selected")) return !1;
             var a = s.parents("#filters");
@@ -268,9 +268,9 @@
                 loop: !0
             }
         }
-    }), jQuery("#totop").hide(), jQuery(window).scroll(function() {
+    }), jQuery("#totop").hide(), jQuery(window).scroll(function () {
         jQuery(this).scrollTop() >= 100 ? (jQuery("#totop").fadeIn(200), jQuery("#totop").addClass("top-visible")) : (jQuery("#totop").fadeOut(200), jQuery("#totop").removeClass("top-visible"))
-    }), jQuery("#totop").on("click", function() {
+    }), jQuery("#totop").on("click", function () {
         return jQuery("body,html").animate({
             scrollTop: 0
         }, 500), !1
@@ -295,10 +295,10 @@
         }
         r();
         var d = setInterval(r, 1e3)
-    }("timer-box", o), e(function() {}), jQuery(document).ready(function() {
+    }("timer-box", o), e(function () { }), jQuery(document).ready(function () {
         jQuery('[data-toggle="tooltip"]').tooltip()
-    }), e(function() {
-        e(".addReadMore").each(function() {
+    }), e(function () {
+        e(".addReadMore").each(function () {
             if (!e(this).find(".firstSec").length) {
                 var t = e(this).text();
                 if (t.length > 90) {
@@ -307,7 +307,7 @@
                     e(this).html(s + "<span class='SecSec'>" + a + "</span><span class='readMore'  title='Click to Show More'> ... Read More</span><span class='readLess' title='Click to Show Less'> Read Less</span>")
                 }
             }
-        }), e(document).on("click", ".readMore,.readLess", function() {
+        }), e(document).on("click", ".readMore,.readLess", function () {
             e(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent")
         })
     })
