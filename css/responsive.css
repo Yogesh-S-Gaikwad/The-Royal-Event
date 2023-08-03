@@ -100,7 +100,8 @@
     font-weight: 600;
     text-transform: capitalize;
     font-size: 15px;
-    color: #fff !important;
+    /* color: #fff !important; */
+    color: black !important;
     opacity: 0.8;
   }
   #site-header-menu #site-navigation .menu > ul > li > a:before {
