@@ -795,7 +795,7 @@ website:   	http://www.themepunch.com
 	border-color:#000;
 	border-style:none;
 	border-width:0;
-	color:#333;
+	color:#808369;
 	font-family:"Source Sans Pro";
 	font-size:60px;
 	font-weight:700;
@@ -823,7 +823,7 @@ website:   	http://www.themepunch.com
 
 .tp-caption.divideline30px_dark,.divideline30px_dark
 {
-	background-color:#333;
+	background-color:#808369;
 	border-color:#222;
 	border-style:none;
 	border-width:0;
@@ -5827,7 +5827,7 @@ tp-caption.Team-Thumb,
     font-style: italic;
 }
 .tp-caption strong.ttm-textcolor-skincolor {
-	color: #b4cd29;
+	color:  #ffb18b;
 }
 .tp-caption.number {
 	color: rgba( 15, 54, 97, 0.1)
@@ -5854,8 +5854,8 @@ tp-caption.Team-Thumb,
 
 /* button */
 .Sports-Button-skin {
-    background-color: #b4cd29 !important;
-    border-color: #b4cd29 !important;
+    background-color:  #ffb18b !important;
+    border-color:  #ffb18b !important;
 }
 .tp-caption.tm-dark-to-skin, .tm-dark-to-skin {
     color: rgba(255,255,255,1);
@@ -5872,8 +5872,8 @@ tp-caption.Team-Thumb,
     border-radius: 0px 0px 0px 0px;
 }
 .tm-dark-to-skin:hover {
-    background-color: #b4cd29 !important;
-    border-color: #b4cd29 !important;
+    background-color:  #ffb18b !important;
+    border-color:  #ffb18b !important;
 }
 .tp-caption.classic-border-button, .classic-border-button {
     font-size: 16px;
@@ -5902,7 +5902,7 @@ tp-caption.Team-Thumb,
     border-width: 1px 1px 1px 1px;
     border-radius: 3px 3px 3px 3px;
 }
-.tp-caption.highlight-skin-button{border-color: #b4cd29;color: #fff;}
+.tp-caption.highlight-skin-button{border-color:  #ffb18b;color: #fff;}
 .tp-caption.highlight-black-button{border-color: #14081f;color: #fff;}
 .tp-caption .left-space-3px {
     font-size: 11px;

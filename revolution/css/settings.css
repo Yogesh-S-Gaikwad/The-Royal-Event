@@ -789,7 +789,7 @@ img.tp-slider-alternative-image	{
   display: block;
   width: 30px;
   height: 3px;
-  background: #333;
+  background: #808369;
   transition: .7s;
   pointer-events: none;
   transform-style: flat !important;
@@ -834,7 +834,7 @@ img.tp-slider-alternative-image	{
   border: 0;
 }
 .rev-burger.revb-darknoborder span {
-  background: #333;
+  background: #808369;
 }
 
 .rev-burger.revb-whitefull {
@@ -843,11 +843,11 @@ img.tp-slider-alternative-image	{
 }
 
 .rev-burger.revb-whitefull span {
-	background:#333;
+	background:#808369;
 }
 
 .rev-burger.revb-darkfull {
-  background: #333;
+  background: #808369;
   border:none;
 }
 
@@ -904,11 +904,11 @@ img.tp-slider-alternative-image	{
 }
 
 .rev-scroll-btn.revs-fullwhite span {
-	background: #333;	
+	background: #808369;	
 }
 
 .rev-scroll-btn.revs-fulldark  {
-	background:#333;
+	background:#808369;
 	border:none;
 }
 
@@ -930,10 +930,10 @@ img.tp-slider-alternative-image	{
 }
 
 .rev-scroll-btn.revs-dark {
-	border-color:#333;
+	border-color:#808369;
 }
 .rev-scroll-btn.revs-dark span {
-	background: #333;	
+	background: #808369;	
 }
 
 .rev-control-btn {
@@ -963,12 +963,12 @@ img.tp-slider-alternative-image	{
 }
 
 .rev-cbutton-light	{	
-	color: #333;  	
+	color: #808369;  	
 	background-color: rgba(255,255,255, 0.75);	
 }
 
 .rev-cbutton-light-sr	{		
-	color: #333;  	
+	color: #808369;  	
 	border-radius: 3px;		
 	background-color: rgba(255,255,255, 0.75);
 }
