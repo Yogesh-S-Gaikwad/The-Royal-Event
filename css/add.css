@@ -6,6 +6,11 @@
     align-items: center !important;
     justify-content: space-between;
 }
+@media  (max-width: 768px) {
+    .top-nav{
+        font-size: small;
+    }
+}
 .page1{
     background-color: rgb(240, 229, 204);
 }
