@@ -32,14 +32,14 @@ p {
 }
 a:focus,
 a:hover {
-  color:  #ffb18b;
+  color:  #d4af37;
   text-decoration: none;
 }
 a,
 button,
 input {
   outline: 0;
-  color:  #ffb18b;
+  color:  #d4af37;
 }
 .top-contact strong,
 .ttm-header-search-link .ttm-tectxon-icon-search:before,
@@ -52,12 +52,12 @@ iframe {
   display: block;
 }
 ::-moz-selection {
-  background:  #ffb18b;
+  background:  #d4af37;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background:  #ffb18b;
+  background:  #d4af37;
   color: #fff;
   text-shadow: none;
 }
@@ -234,7 +234,7 @@ ul.star-rating li,
 ul.stars li,
 ul.ttm-list.ttm-list-style-icon.ttm-textcolor-skincolor li,
 ul.widget-contact li i {
-  color:  #ffb18b;
+  color:  #d4af37;
 }
 menu,
 ol,
@@ -1205,7 +1205,7 @@ a.checkout-button:hover,
 div.product ul.tabs li.active,
 ul.products li.product .ttm-shop-icon,
 ul.social-icons li a:hover {
-  background-color:  #ffb18b;
+  background-color:  #d4af37;
 }
 .ttm-box-view-overlay,
 .ttm-portfolio-box-view-overlay {
@@ -1252,7 +1252,7 @@ ul.social-icons li a:hover {
 .wrap-form .text-input button:focus,
 .wrap-form .text-input input:focus,
 .wrap-form .text-input textarea:focus {
-  border-color:  #ffb18b;
+  border-color:  #d4af37;
 }
 .comment-form input[type="email"]:focus,
 .comment-form input[type="text"]:focus,
@@ -1262,10 +1262,10 @@ ul.social-icons li a:hover {
 .contactform .text-input:focus,
 .heading-seperator:after,
 .ttm-search-overlay .w-search-form-row:before {
-  border-bottom-color:  #ffb18b !important;
+  border-bottom-color:  #d4af37 !important;
 }
 div.product ul.tabs li.active:before {
-  border-top-color:  #ffb18b !important;
+  border-top-color:  #d4af37 !important;
 }
 #site-header-menu #site-navigation .menu ul li > ul li.active > a,
 #site-header-menu #site-navigation .menu ul li > ul li > a:hover,
@@ -1859,14 +1859,14 @@ ul.top-contact .list-inline-item:last-child {
   line-height: 15px;
   padding: 6px 17px;
   font-size: 14px;
-  background:  #ffb18b;
-  border:  #ffb18b;
+  background:  #d4af37;
+  border:  #d4af37;
   font-weight: bolder;
   color: #fff;
 }
 .ttm-header-icon.ttm-header-cart-link a::hover {
   background: 0 0;
-  border:  #ffb18b;
+  border:  #d4af37;
 }
 .ttm-header-icons .ttm-header-cart-link span.number-cart {
   position: absolute;
@@ -3299,7 +3299,7 @@ article.post blockquote p {
   position: absolute;
   top: 32px;
   left: 0;
-  background-color:  #ffb18b;
+  background-color:  #d4af37;
 }
 .footer .widget.widget_nav_menu a {
   font-weight: 400;
@@ -3410,7 +3410,7 @@ article.post blockquote p {
 }
 .service-type .service-catagari ul li a:hover {
   color: #fff;
-  background:  #ffb18b;
+  background:  #d4af37;
 }
 .enqiry a,
 .list-inline ul.social-icons li .fb i.fa-facebook,
@@ -3489,7 +3489,7 @@ article.post blockquote p {
   -moz-transform: scale(1.2);
 }
 .event-name {
-  background:  #ffb18b;
+  background:  #d4af37;
   padding: 10px;
   position: absolute;
   width: 100%;
@@ -3514,7 +3514,7 @@ article.post blockquote p {
   display: none;
 }
 .zoom-img .icon-links i {
-  color:  #ffb18b;
+  color:  #d4af37;
   font-size: 40px;
   -webkit-transition: 0.3s ease-out;
   -moz-transition: 0.3s ease-out;
@@ -3572,7 +3572,7 @@ article.post blockquote p {
   left: 0;
 }
 .enqiry:hover a {
-  color:  #ffb18b !important;
+  color:  #d4af37 !important;
 }
 .tumb-img a {
   padding: 2px;
@@ -3585,7 +3585,7 @@ article.post blockquote p {
 .tumb-img li a.active,
 .tumb-img li a:hover {
   background-color: transparent !important;
-  border: 1px solid  #ffb18b;
+  border: 1px solid  #d4af37;
 }
 .details-content {
   padding: 0 15px;
@@ -3603,7 +3603,7 @@ article.post blockquote p {
   width: 60px;
   height: 2px;
   position: relative;
-  background:  #ffb18b;
+  background:  #d4af37;
   display: block;
   top: 14px;
 }
@@ -3623,7 +3623,7 @@ article.post blockquote p {
 .related-product h2 {
   position: relative;
   z-index: 25;
-  background:  #ffb18b;
+  background:  #d4af37;
   padding: 7px 12px;
   left: -22px;
   display: block;
@@ -3654,9 +3654,9 @@ article.post blockquote p {
   margin-right: 15px;
 }
 .enquiry-order .enquiry-list:hover {
-  border-bottom: 1px solid  #ffb18b;
+  border-bottom: 1px solid  #d4af37;
   padding-left: 20px;
-  border-left: 2px solid  #ffb18b;
+  border-left: 2px solid  #d4af37;
 }
 .event-header {
   margin-left: 15px;
@@ -3672,7 +3672,7 @@ article.post blockquote p {
   position: relative;
   width: 60px;
   height: 2px;
-  background:  #ffb18b;
+  background:  #d4af37;
   display: block;
   top: 10px;
 }
@@ -3688,10 +3688,10 @@ article.post blockquote p {
   left: 98%;
 }
 .topbar-right .top-contact {
-  background:  #ffb18b;
+  background:  #d4af37;
 }
 .top-header {
-  border-top: 3px solid  #ffb18b;
+  border-top: 3px solid  #d4af37;
   background: 0 0 !important;
 }
 .topbar-right .top-contact::after,
@@ -3706,10 +3706,10 @@ article.post blockquote p {
 }
 .topbar-right .top-contact::before {
   left: -56px;
-  border-color:  #ffb18b  #ffb18b transparent transparent;
+  border-color:  #d4af37  #d4af37 transparent transparent;
 }
 .topbar-right .top-contact::after {
-  border-color:  #ffb18b transparent transparent  #ffb18b;
+  border-color:  #d4af37 transparent transparent  #d4af37;
 }
 .mail-ixon {
   padding: 0 50px;

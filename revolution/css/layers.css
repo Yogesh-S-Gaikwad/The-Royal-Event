@@ -5827,7 +5827,7 @@ tp-caption.Team-Thumb,
     font-style: italic;
 }
 .tp-caption strong.ttm-textcolor-skincolor {
-	color:  #ffb18b;
+	color:  #dbac60;
 }
 .tp-caption.number {
 	color: rgba( 15, 54, 97, 0.1)
@@ -5854,8 +5854,8 @@ tp-caption.Team-Thumb,
 
 /* button */
 .Sports-Button-skin {
-    background-color:  #ffb18b !important;
-    border-color:  #ffb18b !important;
+    background-color:  #dbac60 !important;
+    border-color:  #dbac60 !important;
 }
 .tp-caption.tm-dark-to-skin, .tm-dark-to-skin {
     color: rgba(255,255,255,1);
@@ -5872,8 +5872,8 @@ tp-caption.Team-Thumb,
     border-radius: 0px 0px 0px 0px;
 }
 .tm-dark-to-skin:hover {
-    background-color:  #ffb18b !important;
-    border-color:  #ffb18b !important;
+    background-color:  #dbac60 !important;
+    border-color:  #dbac60 !important;
 }
 .tp-caption.classic-border-button, .classic-border-button {
     font-size: 16px;
@@ -5902,7 +5902,7 @@ tp-caption.Team-Thumb,
     border-width: 1px 1px 1px 1px;
     border-radius: 3px 3px 3px 3px;
 }
-.tp-caption.highlight-skin-button{border-color:  #ffb18b;color: #fff;}
+.tp-caption.highlight-skin-button{border-color:  #dbac60;color: #fff;}
 .tp-caption.highlight-black-button{border-color: #14081f;color: #fff;}
 .tp-caption .left-space-3px {
     font-size: 11px;
