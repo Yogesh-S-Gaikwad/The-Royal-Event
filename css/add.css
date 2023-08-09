@@ -209,7 +209,7 @@ text-align:right;
 }
 
 .img-slide{
-    filter: blur(0.5px);
+    filter: blur(5px);
   
 }
 
