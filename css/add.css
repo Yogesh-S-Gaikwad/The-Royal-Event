@@ -177,6 +177,7 @@ text-align:right;
 
 #menu ul li a{
     text-transform: uppercase !important;
+    font-family: Arial  !important;
     
    
 }
@@ -208,20 +209,22 @@ text-align:right;
  color: white !important;
 }
 
-.add-font{
+/* .add-font{
     font-family:Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 .img-slide{
-    filter: blur(5px);
+    /* filter: blur(5px); */
   
 }
 
-.slider-text{
+
+/* .slider-text{   
+   
     position: relative;
-bottom: 50%;
- text-align: center;
-}
+    bottom: 50%;
+    text-align: center;
+} */
 .overlay {
     position: absolute;
     top: 0;
@@ -229,17 +232,21 @@ bottom: 50%;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Adjust the gradient colors and stops */
+   
   }
   .carousel-text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
+    width: 40%;
     transform: translate(-50%, -50%);
     color: white !important;
-    text-align: center;
+    text-align: left;
     font-size: 50px;
     line-height: 1;
   }
+  
 .end-logo{
     display: flex;
     justify-content: center;
