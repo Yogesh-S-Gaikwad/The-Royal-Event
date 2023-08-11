@@ -3180,7 +3180,7 @@ article.post blockquote p {
   transition: 0.3s;
 }
 .testimonial-bg {
-  background-image: url(../royal-imgs/bg4.jpg);
+  background-image: url(../royal-imgs/Slide/26.jpg);
   background-position: center;
   background-size: cover;
 
@@ -3375,7 +3375,7 @@ article.post blockquote p {
         rgba(140, 139, 139, 0.7) 100%
       )
       center/100% repeat-y fixed,
-    url(../royal-imgs/Slides/15.jpg) center/100% repeat-y fixed;
+    url(../royal-imgs/Slide/banquet-table-with-snacks\ \(1\).jpg) center/100% repeat-y fixed;
   color: #fff;
 }
 .service-type {
