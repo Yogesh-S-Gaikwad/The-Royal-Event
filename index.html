@@ -79,7 +79,7 @@
 
 
 
-    
+
         ul,
         li {
             padding: 0;
@@ -279,11 +279,12 @@
         }
 
         .testi-content p {
-            font-size: 16px;
-            font-style: italic;
-            letter-spacing: .4px;
+            font-size: 18px;
+            /* font-style: ; */
+            letter-spacing: 1px !important;
             margin-bottom: 30px;
-            font-weight: 400
+            font-weight: 400;
+            color: white;
         }
 
         .testi-avatar-wrap {
@@ -307,7 +308,8 @@
         .testi-avatar-info h6 {
             font-size: 18px;
             line-height: 1;
-            margin-bottom: 10px
+            margin-bottom: 10px;
+            color: white;
         }
 
         .testi-avatar-info span {
@@ -713,7 +715,7 @@
             }
         }
 
-        .carousel-control-next,
+        /* .carousel-control-next,
         .carousel-control-prev {
             position: absolute;
             top: 0;
@@ -760,7 +762,7 @@
 
         .carousel-control-next-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
-        }
+        } */
 
         .bg-transparent {
             background-color: transparent !important
@@ -1040,14 +1042,16 @@
         }
 
         .owl-nav button {
-            background: #ffb18b;
+            background:rgb(0, 0, 0,0.6);
             font-size: 20px;
             margin-top: 20px;
+            
         }
 
         .testimonial-item {
 
-            height: 451px;
+            height: 400px;
+           
         }
     </style>
 
@@ -1092,9 +1096,10 @@
     <!--header start-->
 
     <div class="page page1">
-        <!-- <div class="top-nav container">
+
+         <div class="top-nav container">
             <a id="nav-contact" href="tel:+91 9920852177">Call Us For Booking <i class="fa fa-phone ml-1"></i>
-                +91
+                +91 
                 9920851277</a>
             <div class="main-top-nav">
                 <div class="nav-icon-div">
@@ -1106,10 +1111,10 @@
                             class="fa fa-instagram"></i></a>
                 </div>
             </div>
-        </div> -->
+        </div>
 
 
-        <header id="masthead" class="header ttm-header-style-classic add-nav">
+        <header id="masthead" class="header ttm-header-style-classic  ">
             <!-- ttm-header-wrap -->
             <div id="ttm-header-wrap">
                 <!-- ttm-stickable-header-w -->
@@ -1122,23 +1127,12 @@
                                     <div class="site-branding">
 
                                         <a href="#">
-                                            <img src="royal-imgs/logo/Royaal Logo.png" alt="logo" width="140"
+                                            <img src="royal-imgs/logo/Royaal Logo.png" alt="logo" width="150"
                                                 height="auto">
                                         </a>
 
 
-                                        <!-- <a class="home-link display-prop" href="index-2.html" title="planwey"
-                                            rel="home">
-                                            <img id="logo" class="img-center"
-                                                src="royal-imgs/logo/Royaal Logo Black.png" alt="logo" width="150"
-                                                height="80">
-                                        </a>
-                                        <a class="home-link display-prop1" href="index-2.html" title="planwey"
-                                            rel="home">
-                                            <img id="logo" class="img-center"
-                                                src="royal-imgs/logo/Royaal Logo Black.png" alt="logo" width="150"
-                                                height="80">
-                                        </a> -->
+
                                     </div>
                                     <!-- site-branding end -->
                                     <!--site-navigation -->
@@ -1154,15 +1148,15 @@
                                         </div>
                                         <nav id="menu" class="menu">
                                             <ul class="dropdown">
-                                                <li><a id="demo" class="" href="index-2.html">Home</a></li>
-                                                <li class=""><a href="top-event-management-companies.html">About Us</a>
+                                                <li><a id="demo" class="" href="#">Home</a></li>
+                                                <li class=""><a href="#">About Us</a>
                                                 </li>
-                                                <li class=""><a href="event-managements-services-sangamner.html">What
+                                                <li class=""><a href="#">What
                                                         We Do</a></li>
-                                                <li class=""><a href="top-event-management-gallery.html">Gallery</a>
+                                                <li class=""><a href="#">Gallery</a>
                                                 </li>
                                                 <!-- <li class=""><a href="the-royal-event-planner-faq.html">FAQ</a></li> -->
-                                                <li class=""><a href="contact-the-royal-events-sangamner.html">Contact
+                                                <li class=""><a href="#">Contact
                                                         Us</a></li>
                                                 <!-- <li class=""><a href="the-royal-event-planner-enquiry.html">Enquiry</a> -->
                                                 </li>
@@ -1180,7 +1174,7 @@
         </header>
         <!--header end--> <!--header end-->
         <section class="slider-section section2">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade add-nav" data-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item item active">
                         <img class="d-block w-100 img-slide" src="royal-imgs/Slide/wedding.jpg" alt="First slide"
@@ -1236,15 +1230,8 @@
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div> <!--site-main start-->
+
+            <!--site-main start-->
             <div class="site-main">
 
                 <section class="wide-tb-120" style="padding-top: 10px;">
@@ -1252,7 +1239,7 @@
                         <div class="col-lg-12 text-center">
                             <div class=" section-title clearfix">
                                 <!--<h4>best event management services</h4>-->
-                                <h1 class="title add-font">The Royal Events Planning and Decor </h1>
+                                <h1 class="title">The Royal Events Planning and Decor </h1>
                                 <div class="title-img">
                                     <img src="images/ds-1.webp" alt="puberty function event organizer in sangamner"
                                         width="87" height="23">
@@ -1261,195 +1248,58 @@
                         </div>
                         <div class="row">
 
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-                                <div class="m-2 custom-shadow">
-                                    <div class="event-text p-2">
-                                        <a href="wedding-planner-sangamner-india.html">
-                                            <h4 class="text-center" style="margin-bottom:5px; font-family:inherit;">
-                                                Wedding
-                                                Planner</h4>
-                                        </a>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-3 pb-3 ">
+                                <div class="image-container2">
+                                    <img src="royal-imgs/Slide/Wedding2.jpg" alt="Image">
+                                    <div class="overlay2">
+                                      <h2>Wedding Planner</h2>
                                     </div>
-                                    <div class="zoom-img">
-                                        <a href="wedding-planner-sangamner-india.html"><img class="img-fluid"
-                                                src="images/new/wedding2.webp" alt="wedding Planner In sangamner"
-                                                width="360" height="400"></a>
-                                        <div class="actions">
-                                            <div class="ul-action-link"><a href="wedding-planner-sangamner-india.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Wedding Planner"></a></div>
-                                            <div class="ul-call-us"><a href="tel:+91 9920852177" data-toggle="tooltip"
-                                                    data-placement="right" title="" data-original-title="Call Us"></a>
-                                            </div>
-                                            <div class="ul-whats-app"><a
-                                                    href=" https://wa.me/+919920852177?text=I'm%20interested%20in%20your%20The%20Royal%20Events%20Services"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Whats app"></a></div>
-                                            <div class="ul-contact-us"><a href="contact-the-royal-events-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Contact Us"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div class="m-2 custom-shadow">
-                                    <div class="event-text p-2">
-                                        <a href="corporate-event-management-companies.html">
-                                            <h4 class="text-center" style="margin-bottom:5px; font-family:inherit;">
-                                                Corporate Events</h4>
-                                        </a>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-3 pb-3">
+                                <div class="image-container2">
+                                    <img src="royal-imgs/Slide/Corporate Events.jpg" alt="Image">
+                                    <div class="overlay2">
+                                      <h2>Corporate Events</h2>
                                     </div>
-                                    <div class="zoom-img">
-                                        <a href="corporate-event-management-companies.html"><img class="img-fluid"
-                                                src="images/new/corporate2.webp"
-                                                alt="corporate event planner in sangamner" width="360" height="400"></a>
-                                        <div class="actions">
-                                            <div class="ul-action-link"><a
-                                                    href="corporate-event-management-companies.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Corporate Events"></a></div>
-                                            <div class="ul-call-us"><a href="tel:+91 9920852177" data-toggle="tooltip"
-                                                    data-placement="right" title="" data-original-title="Call Us"></a>
-                                            </div>
-                                            <div class="ul-whats-app"><a
-                                                    href=" https://wa.me/+919920852177?text=I'm%20interested%20in%20your%20The%20Royal%20Events%20Services"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Whats app"></a></div>
-                                            <div class="ul-contact-us"><a href="contact-the-royal-events-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Contact Us"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-                                <div class="m-2 custom-shadow">
-                                    <div class="event-text p-2">
-                                        <a href="birthday-party-event-management.html">
-                                            <h4 class="text-center" style="margin-bottom:5px; font-family:inherit;">
-                                                Birthday Party</h4>
-                                        </a>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-3 pb-3 ">
+                                <div class="image-container2">
+                                    <img src="royal-imgs/Slide/birthday party hall.jpg" alt="Image">
+                                    <div class="overlay2">
+                                      <h2>Birthday Party</h2>
                                     </div>
-                                    <div class="zoom-img">
-                                        <a href="birthday-party-event-management.html"><img class="img-fluid"
-                                                src="images/new/birthday2.webp"
-                                                alt="birthday party planner in sangamner" width="360" height="400"></a>
-                                        <div class="actions">
-                                            <div class="ul-action-link"><a href="birthday-party-event-management.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Birthday Party"></a></div>
-                                            <div class="ul-call-us"><a href="tel:+91 9920852177" data-toggle="tooltip"
-                                                    data-placement="right" title="" data-original-title="Call Us"></a>
-                                            </div>
-                                            <div class="ul-whats-app"><a
-                                                    href=" https://wa.me/+919920852177?text=I'm%20interested%20in%20your%20The%20Royal%20Events%20Services"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Whats app"></a></div>
-                                            <div class="ul-contact-us"><a href="contact-the-royal-events-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Contact Us"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div class="m-2 custom-shadow">
-                                    <div class="event-text p-2">
-                                        <a href="housewarmig-functions-organizer.html">
-                                            <h4 class="text-center" style="margin-bottom:5px; font-family:inherit;">
-                                                Housewarming</h4>
-                                        </a>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-3 pb-3">
+                                <div class="image-container2">
+                                    <img src="royal-imgs/Slide/Housewarming.jpg" alt="Image">
+                                    <div class="overlay2">
+                                      <h2>Housewarming</h2>
                                     </div>
-                                    <div class="zoom-img">
-                                        <a href="housewarmig-functions-organizer.html"><img class="img-fluid"
-                                                src="images/house-warming.webp"
-                                                alt="housewarming function planner in sangamner" width="360"
-                                                height="400"></a>
-                                        <div class="actions">
-                                            <div class="ul-action-link"><a href="housewarmig-functions-organizer.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Housewarming"></a></div>
-                                            <div class="ul-call-us"><a href="tel:+91 9920852177" data-toggle="tooltip"
-                                                    data-placement="right" title="" data-original-title="Call Us"></a>
-                                            </div>
-                                            <div class="ul-whats-app"><a
-                                                    href=" https://wa.me/+919920852177?text=I'm%20interested%20in%20your%20The%20Royal%20Events%20Services"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Whats app"></a></div>
-                                            <div class="ul-contact-us"><a href="contact-the-royal-events-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Contact Us"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div class="m-2 custom-shadow">
-                                    <div class="event-text p-2">
-                                        <a href="puberty-event-function-organizer.html">
-                                            <h4 class="text-center" style="margin-bottom:5px; font-family:inherit;">
-                                                Puberty
-                                                Function</h4>
-                                        </a>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-3 pb-3">
+                                <div class="image-container2">
+                                    <img src="royal-imgs/Slide/Engagement.jpg" alt="Image">
+                                    <div class="overlay2">
+                                      <h2>Engagement</h2>
                                     </div>
-                                    <div class="zoom-img">
-                                        <a href="puberty-event-function-organizer.html"><img class="img-fluid"
-                                                src="images/puberty-functions.webp"
-                                                alt="puberty function planner in sangamner" width="360"
-                                                height="400"></a>
-                                        <div class="actions">
-                                            <div class="ul-action-link"><a href="puberty-event-function-organizer.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Puberty Function"></a></div>
-                                            <div class="ul-call-us"><a href="tel:+91 9920852177" data-toggle="tooltip"
-                                                    data-placement="right" title="" data-original-title="Call Us"></a>
-                                            </div>
-                                            <div class="ul-whats-app"><a
-                                                    href=" https://wa.me/+919920852177?text=I'm%20interested%20in%20your%20The%20Royal%20Events%20Services"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Whats app"></a></div>
-                                            <div class="ul-contact-us"><a href="contact-the-royal-events-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Contact Us"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-                                <div class="m-2 custom-shadow">
-                                    <div class="event-text p-2">
-                                        <a href="engagement-planner-sangamner.html">
-                                            <h4 class="text-center" style="margin-bottom:5px; font-family:inherit;">
-                                                Engagement</h4>
-                                        </a>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pt-3 pb-3">
+                                <div class="image-container2">
+                                    <img src="royal-imgs/Slide/baby shower.jpg" alt="Image">
+                                    <div class="overlay2">
+                                      <h2>Baby Shower</h2>
                                     </div>
-                                    <div class="zoom-img">
-                                        <a href="engagement-planner-sangamner.html"><img class="img-fluid"
-                                                src="images/engagement.webp" alt="engagement event planner in sangamner"
-                                                width="360" height="400"></a>
-                                        <div class="actions">
-                                            <div class="ul-action-link"><a href="engagement-planner-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Engagement"></a></div>
-                                            <div class="ul-call-us"><a href="tel:+91 9920852177" data-toggle="tooltip"
-                                                    data-placement="right" title="" data-original-title="Call Us"></a>
-                                            </div>
-                                            <div class="ul-whats-app"><a
-                                                    href=" https://wa.me/+919920852177?text=I'm%20interested%20in%20your%20The%20Royal%20Events%20Services"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Whats app"></a></div>
-                                            <div class="ul-contact-us"><a href="contact-the-royal-events-sangamner.html"
-                                                    data-toggle="tooltip" data-placement="right" title=""
-                                                    data-original-title="Contact Us"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
                             <div class="col-md-12 text-center">
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-btn-color-black mt-50 add-all-services-btn"
-                                    href="event-managements-services-sangamner.html">All Service</a>
+                                <a class="btn bg-light mt-3"
+                                    href="#">All Service</a>
                             </div>
                         </div>
                         <!--site-main-->
@@ -1531,13 +1381,14 @@
 
                 <!-- testimonial-area -->
                 <section class="testimonial-area testimonial-bg pt-110 pb-120">
+                    
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 text-center">
                                 <div class=" section-title clearfix">
                                     <h4 class="text-black-50">SEE OUR BEST</h4>
                                     <h3 class="title">What People Says About The Royal Events</h3>
-                                    
+
                                     <div class="title-img">
                                         <img src="images/ds-1.webp" alt="" width="87" height="23">
                                     </div>
@@ -1545,15 +1396,18 @@
                             </div>
                         </div>
                         <div id="owl-carousel" class="row owl-carousel owl-theme">
+
+                            
+
                             <div class="testimonial-item">
-                                <div class="testimonial-quote">
+                                <!-- <div class="testimonial-quote">
                                     <svg version="1.1" x="0px" y="0px" viewBox="0 0 32 32" xml:space="preserve">
                                         <g>
                                             <polygon points="0,4 0,28 12,16 12,4" />
                                             <polygon points="20,4 20,28 32,16 32,4" />
                                         </g>
                                     </svg>
-                                </div>
+                                </div> -->
                                 <div class="testimonial-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1580,14 +1434,14 @@
                                 </div>
                             </div>
                             <div class="testimonial-item">
-                                <div class="testimonial-quote">
+                                <!-- <div class="testimonial-quote">
                                     <svg version="1.1" x="0px" y="0px" viewBox="0 0 32 32" xml:space="preserve">
                                         <g>
                                             <polygon points="0,4 0,28 12,16 12,4" />
                                             <polygon points="20,4 20,28 32,16 32,4" />
                                         </g>
                                     </svg>
-                                </div>
+                                </div> -->
                                 <div class="testimonial-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1613,14 +1467,14 @@
                             </div>
 
                             <div class="testimonial-item">
-                                <div class="testimonial-quote">
+                                <!-- <div class="testimonial-quote">
                                     <svg version="1.1" x="0px" y="0px" viewBox="0 0 32 32" xml:space="preserve">
                                         <g>
                                             <polygon points="0,4 0,28 12,16 12,4" />
                                             <polygon points="20,4 20,28 32,16 32,4" />
                                         </g>
                                     </svg>
-                                </div>
+                                </div> -->
                                 <div class="testimonial-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1655,105 +1509,9 @@
                 <!-- testimonial-area-end -->
 
                 <!--footer-->
-                <footer class=" widget-footer bg-img11 ttm-bgcolor-new ttm-bg ttm-bgimage-yes clearfix pt-10    ">
-                    <!-- <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div> -->
 
-                    <div class="container">
-                        <div class="second-footer-inner">
-                            <div class="row">
-                                <div class="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <div class="widget widget_nav_menu clearfix">
-                                        <h4 class="widget-title">Quick Links </h4>
-                                        <ul class="menu-footer-services">
-                                            <li><a href="top-event-management-companies.html">Why Us</a></li>
-                                            <li><a href="event-managements-services-sangamner.html">What We Do</a>
-                                            </li>
-                                            <li><a href="top-event-management-gallery.html">Gallery</a></li>
-                                            <!-- <li><a href="the-royal-event-planner-faq.html">FAQ</a></li> -->
-                                            <!-- <li><a href="the-royal-event-planner-enquiry.html">Enquiry</a></li> -->
-                                            <li><a href="contact-the-royal-events-sangamner.html">Contact Us</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <div class="widget widget_nav_menu clearfix">
-                                        <h4 class="widget-title">What We Do</h4>
-                                        <ul class="menu-footer-services">
-                                            <li><a href="engagement-planner-sangamner.html">Engagement</a></li>
-                                            <li><a href="wedding-planner-sangamner-india.html">Wedding Planner</a>
-                                            </li>
-                                            <li><a href="top-best-destination-wedding-planners.html">Destination
-                                                    Wedding</a></li>
-                                            <li><a href="corporate-event-management-companies.html">Corporate
-                                                    Events</a></li>
-                                            <li><a href="product-launch-event-organizers-maharastra.html">Product
-                                                    Launch Events</a></li>
-                                            <li><a href="company-award-ceremony-event-planner.html">Company Award
-                                                    Ceremony</a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <div class="widget widget-out-link clearfix ">
-                                        <h4 class="widget-title">What We Do</h4>
-                                        <ul class="menu-footer-services">
-                                            <li><a href="virtual-online-event-management-organizers.html">Virtual
-                                                    Event Planner</a></li>
-                                            <li><a href="corporate-social-event-planner-india.html">Corporate Social
-                                                    Events</a></li>
-                                            <li><a href="exhibition-stall-design-fabricators-services.html">Exhibition
-                                                    Stall</a></li>
-                                            <li><a href="birthday-party-event-management.html">Birthday Party</a>
-                                            </li>
-                                            <li><a href="housewarmig-functions-organizer.html">Housewarming</a></li>
-                                            <li><a href="baby-naming-ceremony-events.html">Baby Naming Ceremony</a>
-                                            </li>
-
-                                        </ul>
-
-                                    </div>
-                                </div>
-                                <div class="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                    <div class="widget widget-out-link clearfix ">
-                                        <h4 class="widget-title">What We Do</h4>
-                                        <ul class="menu-footer-services">
-                                            <li><a href="puberty-event-function-organizer.html">Puberty Function</a>
-                                            </li>
-                                            <li><a href="bangle-ceremony-event-valaikappu-function.html">Bangle
-                                                    Ceremony</a></li>
-                                            <li><a href="sangeet-mehendi-ceremony-sangamner.html">Sangeet &
-                                                    Mehendi</a></li>
-                                            <li><a href="wedding-anniversary-event-planner.html">Anniversary</a>
-                                            </li>
-                                            <li><a href="school-college-alumni-event-planners.html">College/School
-                                                    Alumni</a></li>
-                                        </ul>
-
-                                    </div>
-                                    <!-- <div class="widget widget-out-link clearfix">
-                                            <h4 class="widget-title">Contact Us</h4>
-                                            <ul class="widget-contact">
-                                                <li><i class="fa fa-map-marker"></i>Top Ten Imperial,<br>G 29, Suyog
-                                                    Colony,<br>Sangamner, <br>Maharashtra 422605.</li>
-                                                <li><i class="fa fa-envelope-o"></i><a
-                                                        href="mailto:theroyalevents1111@gmail.com">theroyalevents1111@gmail.com</a>
-                                                </li>
-                                                <li><a href="tel:+919920852177"><i class="fa fa-phone"></i>+91
-                                                        9920852177</li></a>
-                                            </ul>
-                                        </div> -->
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </footer>
-                <div class="container bg-light row mx-auto footer-end">
-                    <div class="col-md-4 text-right text-dark">
+                <div class="container bg-white row mx-auto footer-end">
+                    <div class="col-md-4 text-dark footer-contact">
 
                         <a class="text-dark " href="tel:+919920852177"><i class="fa fa-phone mr-3"></i> +91
                             9920852177</a>
@@ -1767,7 +1525,7 @@
                             width="150" height="80">
                         </a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 footer-location">
 
 
                         <p class="text-dark">
@@ -1788,28 +1546,7 @@
                                             href="https://www.leometric.com/" target="_blank">Leometric</a></P>
                                 </div>
                             </div>
-                            <!-- <div class="col-sm-12 col-xs-12 col-md-4 ttm-footer2-right">
-                                <div class="ttm-social-link-wrapper list-inline" style="padding:2px;">
-                                    <ul class="social-icons">
-                                        <ul class="social-icons">
-                                            <li><a href="https://www.facebook.com/EventsTheRoyal/" class="fb"
-                                                    target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                            <li><a href="https://www.instagram.com/rx_yogiraj/" class="in"><i
-                                                        class="fa fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="https://twitter.com/BambooDecors" class="tw"><i
-                                                        class="fa fa-twitter"></i></a>
-                                            </li>
-                                            <li><a href="https://www.youtube.com/channel/UCxyMUWvPL_BckC8V-iGA_ig"
-                                                    class="ln"><i class="fa fa-youtube-play"></i></a>
-                                            </li>
 
-                                        </ul>
-                                        
-                                    </ul>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
