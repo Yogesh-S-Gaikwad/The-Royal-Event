@@ -44,6 +44,8 @@
   color: white ;
 }
 
+
+
 /* ------top navbar ------ */
 
 
@@ -116,6 +118,9 @@ text-align:right;
 @media  (max-width: 768px) {
     .top-nav{
         font-size: small;
+    }
+    .main-nav{
+      background-color: rgb(128, 0, 0) !important;
     }
     .footer-end{
         text-align: center !important;
