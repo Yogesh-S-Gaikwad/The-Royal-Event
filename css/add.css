@@ -1,38 +1,51 @@
-/* .new-nav{
-    background-color: maroon;
-    display: flex;
-    
-    justify-content: center;
-} */
-/* @media (max-width: 1199px){
-    .new-nav{
-        display: none;
-    }
-} */
-/* @media (min-width: 1200px){
-    .site-branding{
-        display: none !important;
-    }
-    .site-header-main{
-        display: flex;
-        justify-content: center !important;
-       
-    }
-} */
-/* .top-nav{
+
+/* ------top navbar ------ */
+
+.top-nav{
     background-color: rgb(240, 229, 204);
     line-height: 3;
     display: flex;
   
     align-items: center !important;
     justify-content: space-between;
-} */
-/* @media  (min-width: 768px){
-    .footer-contact{
-        text-align: right !important;
+}
+.page1{
+  background-color: rgb(240, 229, 204);
+}
+.main-top-nav{
+  display: flex;
+ 
+}
+.nav-icon{
+  margin-top: 2px;
+  color: #ffffff; 
+}
+.nav-icon-div{
+  height: 35px;
+  width: 35px;
+  background-color: rgb(95, 99, 99);
+  border-radius: 50%;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 5px !important;
+}
+#nav-contact{
+  color:rgb(95, 99, 99) ;
+  font-weight:900 !important;
+}
+#nav-contact:hover{
+  color:white !important;
+}
+.nav-icon-div:hover{
+  background-color: #dbac60 ;
+}
+.nav-icon:hover{
+  color: white ;
 }
 
-} */
+/* ------top navbar ------ */
+
 
 .slider-section{
     background-color: maroon;
@@ -106,57 +119,25 @@ text-align:right;
     }
     .footer-end{
         text-align: center !important;
+        
     }
     .footer-contact{
         text-align:center ;
+        margin-bottom: 1rem;
         }
         .carousel-text p{
             font-size: small;
+           
+        }
+        .footer-location{
+          margin-top: 1rem ;
+        }
+        .testi-content p{
+          font-size: smaller !important;
         }
         
 }
-/* .page1{
-    background-color: rgb(240, 229, 204);
-}
-.main-top-nav{
-    display: flex;
-   
-}
-.nav-icon{
-    margin-top: 2px;
-    color: #ffffff; 
-}
-.nav-icon-div{
-    height: 35px;
-    width: 35px;
-    background-color: rgb(95, 99, 99);
-    border-radius: 50%;
-    display: flex;
-    align-items: center !important;
-    justify-content: center !important;
-    margin-left: 5px !important;
 
-}
-#nav-contact{
-    color:rgb(95, 99, 99) ;
-    font-weight:900 !important;
-}
-#nav-contact:hover{
-    color:white !important;
-}
-.nav-icon-div:hover{
-    background-color: #dbac60 ;
-}
-.nav-icon:hover{
-    color: white ;
-}
-
-.add-nav{
-    background-color:white;
-}
-.add-all-services-btn{
-    background-color: black !important;
-} */
 .add-all-services-btn:hover{
     background-color:  #dbac50 !important;
 }
@@ -177,7 +158,7 @@ text-align:right;
 
 #menu ul li a{
     text-transform: uppercase !important;
-    font-family: Arial  !important;
+    /* font-family: Arial  !important; */
     
    
 }
@@ -185,7 +166,8 @@ text-align:right;
 
 .main-nav{
     
-    background-color:maroon !important;
+    /* background-color:rgb(128, 0, 0) !important; */
+    background-color: white;
     /* letter-spacing: 2px; */
    
    
@@ -200,31 +182,14 @@ text-align:right;
     background-size: cover;
     
 }
-/* .bg-img a{
-    letter-spacing: 2px;
-} */
+
 
 /* contact us */
 .ttm-textcolor-white a:hover{
  color: white !important;
 }
 
-/* .add-font{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-} */
 
-.img-slide{
-    /* filter: blur(5px); */
-  
-}
-
-
-/* .slider-text{   
-   
-    position: relative;
-    bottom: 50%;
-    text-align: center;
-} */
 .overlay {
     position: absolute;
     top: 0;
@@ -232,19 +197,23 @@ text-align:right;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); 
-    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Adjust the gradient colors and stops */
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Adjust the gradient colors and stops */
    
   }
   .carousel-text {
     position: absolute;
     top: 50%;
-    left: 35%;
-    width: 40%;
+    left: 30%;
+    width: 50%;
     transform: translate(-50%, -50%);
     color: white !important;
     text-align: left;
-    font-size: 50px;
+    font-size: 5rem;
     line-height: 1;
+   
+  }
+  .section-title h1{
+    margin-top: 30PX;
   }
   
 .end-logo{
@@ -291,3 +260,111 @@ text-align:right;
     animation: zoom 10s;
   } */
   /* ---------slide-zoom effect------- */
+  /* .overlay-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)); 
+   
+  }
+  .event-text{
+    background-color: rgb(255, 255, 255);
+  } */
+  .image-container {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+
+
+
+.image-container2 {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+    0 2px 2px rgba(0,0,0,0.1), 
+    0 4px 4px rgba(0,0,0,0.1), 
+    0 8px 8px rgba(0,0,0,0.1),
+    0 16px 16px rgba(0,0,0,0.1);
+  }
+  
+  .image-container2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .overlay2 h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .image-container2:hover .overlay2 {
+    opacity: 0;
+  }
+
+
+
+.testimonial-item{
+    border-radius: 25% 0 ;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); 
+  background: linear-gradient(to right, rgb(128, 0, 0), rgba(128, 0, 0, 0.9), rgba(128, 0, 0, 0.5), rgba(128, 0, 0, 0)); /* Adjust the gradient colors and stops */
+ 
+}
+
+

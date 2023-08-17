@@ -97,11 +97,12 @@
     position: relative;
     z-index: 1;
     line-height: 117px !important;
-    font-weight: 500;
+    font-weight: 900;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 14px;
     /* color: #fff !important; */
     color: #dbac50 !important;
+    letter-spacing: 2px;
     
    
   }

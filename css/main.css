@@ -3187,7 +3187,8 @@ article.post blockquote p {
 
 }
 .testimonial-item {
-  background: #fff;
+  /* background:url(../royal-imgs/Slide/red-paper-texture.jpg); */
+  background-color: rgb(0, 0, 0,0.7);
   position: relative;
   z-index: 1;
   padding: 70px 40px 50px;
@@ -3201,7 +3202,8 @@ article.post blockquote p {
   top: 13px;
   right: 13px;
   bottom: 13px;
-  border: 1px solid #ebebeb;
+  /* border: 1px solid #ebebeb; */
+  border: 1px solid transparent !important;
   z-index: -1;
 }
 .testimonial-quote svg {
@@ -3263,7 +3265,7 @@ article.post blockquote p {
   height: 0;
   border-style: solid;
   border-width: 85px 85px 0 0;
-  border-color: #b3cc27 transparent transparent;
+  border-color: rgb(128, 0, 0) transparent transparent;
   z-index: -1;
 }
 .testimonial-quote svg polygon {
