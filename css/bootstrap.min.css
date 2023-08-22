@@ -1861,14 +1861,14 @@ fieldset:disabled a.btn {
   border-top: 0.3em solid;
   border-bottom: 0;
 }
-.custom-control-label::after,
+/* .custom-control-label::after,
 .custom-control-label::before {
   height: 1rem;
   top: 0.25rem;
   left: -1.5rem;
   width: 1rem;
   position: absolute;
-}
+} */
 .btn-group > .btn:first-child,
 .dropdown-toggle-split::after,
 .dropdown-toggle:empty::after,

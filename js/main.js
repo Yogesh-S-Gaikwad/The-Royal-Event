@@ -312,3 +312,35 @@
         })
     })
 }(jQuery);
+
+
+
+// when the user visits your page and use its value to determine the constant state of the page after a refresh.
+
+localStorage.setItem("pageState", "constant");
+
+// Retrieve the state from local storage
+const pageState = localStorage.getItem("pageState");
+
+// Check the retrieved state and apply the constant state logic if needed
+if (pageState === "constant") {
+  // Apply your constant state logic here
+}
+
+// Set the initial state when the page loads (you can put this in your script)
+localStorage.setItem("pageState", "constant");
+
+// Retrieve the state from local storage on page refresh
+document.addEventListener("DOMContentLoaded", function() {
+  const pageState = localStorage.getItem("pageState");
+  // Check the retrieved state and apply the constant state logic if needed
+  if (pageState === "constant") {
+    // Apply your constant state logic here
+    console.log("Constant state logic applied.");
+  }
+});
+
+
+
+
+
